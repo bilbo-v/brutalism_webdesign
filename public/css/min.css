@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+.navbar-logo-container{
+    padding:10px;
+}
+.navbar-logo{
+    font-size:3vh;
+}
+.toggler{
+    color: black;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+.navbar-master-container{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid black ;
+    border-bottom: 2px solid black;
+
+}
+.navbar-container-1{
+    width:70%;
+    padding: 10px;
+    display: none;
+}
+.navbar-container-1 ul{
+    display: inline-flex;
+    list-style: none;   
+    margin-left:7%; 
+    display: none;
+}
+
+.navbar-container-1 li{
+    margin-right: 20px;
+    
+}
+.navbar-container-2{
+    width:30%;
+    display: flex;
+    align-items: center;
+    height:100%;
+    display: none;
+}
+.navbar-container-sub-1{
+    background-color: white;
+    width:50%;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 2px solid black;
+    height:52px;
+
+}
+.navbar-container-sub-2{
+    color:white;
+    background-color: black;
+    width:50%;
+    height:8vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-container-sub-2 a{
+    color:white;
+}
